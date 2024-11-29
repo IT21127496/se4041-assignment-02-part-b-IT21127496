@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8391A782CF904840029489A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C8391A772CF904840029489A /* FirebaseAuth */; };
+		C8391A7A2CF904840029489A /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C8391A792CF904840029489A /* FirebaseFirestore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8D05CE92CF8C6D400F0A27B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8D05CD02CF8C6D200F0A27B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8D05CD72CF8C6D200F0A27B;
+			remoteInfo = HomeFitApp;
+		};
+		C8D05CF32CF8C6D400F0A27B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8D05CD02CF8C6D200F0A27B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8D05CD72CF8C6D200F0A27B;
+			remoteInfo = HomeFitApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C8D05CD82CF8C6D200F0A27B /* HomeFitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeFitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8D05CE82CF8C6D400F0A27B /* HomeFitAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeFitAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8D05CF22CF8C6D400F0A27B /* HomeFitAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeFitAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C8198AFA2CF9FC6300B10968 /* Exceptions for "HomeFitApp" folder in "HomeFitApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Models/FirestoreManager.swift,
+				SupportingFiles/Info.plist,
+			);
+			target = C8D05CD72CF8C6D200F0A27B /* HomeFitApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C8D05CDA2CF8C6D200F0A27B /* HomeFitApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C8198AFA2CF9FC6300B10968 /* Exceptions for "HomeFitApp" folder in "HomeFitApp" target */,
+			);
+			path = HomeFitApp;
+			sourceTree = "<group>";
+		};
+		C8D05CEB2CF8C6D400F0A27B /* HomeFitAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HomeFitAppTests;
+			sourceTree = "<group>";
+		};
+		C8D05CF52CF8C6D400F0A27B /* HomeFitAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HomeFitAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8D05CD52CF8C6D200F0A27B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8391A782CF904840029489A /* FirebaseAuth in Frameworks */,
+				C8391A7A2CF904840029489A /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8D05CE52CF8C6D400F0A27B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8D05CEF2CF8C6D400F0A27B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8D05CCF2CF8C6D200F0A27B = {
+			isa = PBXGroup;
+			children = (
+				C8D05CDA2CF8C6D200F0A27B /* HomeFitApp */,
+				C8D05CEB2CF8C6D400F0A27B /* HomeFitAppTests */,
+				C8D05CF52CF8C6D400F0A27B /* HomeFitAppUITests */,
+				C8D05CD92CF8C6D200F0A27B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8D05CD92CF8C6D200F0A27B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8D05CD82CF8C6D200F0A27B /* HomeFitApp.app */,
+				C8D05CE82CF8C6D400F0A27B /* HomeFitAppTests.xctest */,
+				C8D05CF22CF8C6D400F0A27B /* HomeFitAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8D05CD72CF8C6D200F0A27B /* HomeFitApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8D05CFC2CF8C6D400F0A27B /* Build configuration list for PBXNativeTarget "HomeFitApp" */;
+			buildPhases = (
+				C8D05CD42CF8C6D200F0A27B /* Sources */,
+				C8D05CD52CF8C6D200F0A27B /* Frameworks */,
+				C8D05CD62CF8C6D200F0A27B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C8D05CDA2CF8C6D200F0A27B /* HomeFitApp */,
+			);
+			name = HomeFitApp;
+			packageProductDependencies = (
+				C8391A772CF904840029489A /* FirebaseAuth */,
+				C8391A792CF904840029489A /* FirebaseFirestore */,
+			);
+			productName = HomeFitApp;
+			productReference = C8D05CD82CF8C6D200F0A27B /* HomeFitApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8D05CE72CF8C6D400F0A27B /* HomeFitAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8D05CFF2CF8C6D400F0A27B /* Build configuration list for PBXNativeTarget "HomeFitAppTests" */;
+			buildPhases = (
+				C8D05CE42CF8C6D400F0A27B /* Sources */,
+				C8D05CE52CF8C6D400F0A27B /* Frameworks */,
+				C8D05CE62CF8C6D400F0A27B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8D05CEA2CF8C6D400F0A27B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C8D05CEB2CF8C6D400F0A27B /* HomeFitAppTests */,
+			);
+			name = HomeFitAppTests;
+			packageProductDependencies = (
+			);
+			productName = HomeFitAppTests;
+			productReference = C8D05CE82CF8C6D400F0A27B /* HomeFitAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C8D05CF12CF8C6D400F0A27B /* HomeFitAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8D05D022CF8C6D400F0A27B /* Build configuration list for PBXNativeTarget "HomeFitAppUITests" */;
+			buildPhases = (
+				C8D05CEE2CF8C6D400F0A27B /* Sources */,
+				C8D05CEF2CF8C6D400F0A27B /* Frameworks */,
+				C8D05CF02CF8C6D400F0A27B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8D05CF42CF8C6D400F0A27B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C8D05CF52CF8C6D400F0A27B /* HomeFitAppUITests */,
+			);
+			name = HomeFitAppUITests;
+			packageProductDependencies = (
+			);
+			productName = HomeFitAppUITests;
+			productReference = C8D05CF22CF8C6D400F0A27B /* HomeFitAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8D05CD02CF8C6D200F0A27B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					C8D05CD72CF8C6D200F0A27B = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					C8D05CE72CF8C6D400F0A27B = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = C8D05CD72CF8C6D200F0A27B;
+					};
+					C8D05CF12CF8C6D400F0A27B = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = C8D05CD72CF8C6D200F0A27B;
+					};
+				};
+			};
+			buildConfigurationList = C8D05CD32CF8C6D200F0A27B /* Build configuration list for PBXProject "HomeFitApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8D05CCF2CF8C6D200F0A27B;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C8391A762CF904840029489A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C8D05CD92CF8C6D200F0A27B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8D05CD72CF8C6D200F0A27B /* HomeFitApp */,
+				C8D05CE72CF8C6D400F0A27B /* HomeFitAppTests */,
+				C8D05CF12CF8C6D400F0A27B /* HomeFitAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8D05CD62CF8C6D200F0A27B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8D05CE62CF8C6D400F0A27B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8D05CF02CF8C6D400F0A27B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8D05CD42CF8C6D200F0A27B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8D05CE42CF8C6D400F0A27B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8D05CEE2CF8C6D400F0A27B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8D05CEA2CF8C6D400F0A27B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8D05CD72CF8C6D200F0A27B /* HomeFitApp */;
+			targetProxy = C8D05CE92CF8C6D400F0A27B /* PBXContainerItemProxy */;
+		};
+		C8D05CF42CF8C6D400F0A27B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8D05CD72CF8C6D200F0A27B /* HomeFitApp */;
+			targetProxy = C8D05CF32CF8C6D400F0A27B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C8D05CFA2CF8C6D400F0A27B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 18.0;
+			};
+			name = Debug;
+		};
+		C8D05CFB2CF8C6D400F0A27B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TVOS_DEPLOYMENT_TARGET = 18.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8D05CFD2CF8C6D400F0A27B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HomeFitApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.devthinijay.HomeFitApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		C8D05CFE2CF8C6D400F0A27B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HomeFitApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.devthinijay.HomeFitApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		C8D05D002CF8C6D400F0A27B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.devthinijay.HomeFitAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomeFitApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HomeFitApp";
+				TVOS_DEPLOYMENT_TARGET = 18.0;
+			};
+			name = Debug;
+		};
+		C8D05D012CF8C6D400F0A27B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.devthinijay.HomeFitAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomeFitApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HomeFitApp";
+				TVOS_DEPLOYMENT_TARGET = 18.0;
+			};
+			name = Release;
+		};
+		C8D05D032CF8C6D400F0A27B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.devthinijay.HomeFitAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = HomeFitApp;
+			};
+			name = Debug;
+		};
+		C8D05D042CF8C6D400F0A27B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.devthinijay.HomeFitAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = HomeFitApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8D05CD32CF8C6D200F0A27B /* Build configuration list for PBXProject "HomeFitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8D05CFA2CF8C6D400F0A27B /* Debug */,
+				C8D05CFB2CF8C6D400F0A27B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8D05CFC2CF8C6D400F0A27B /* Build configuration list for PBXNativeTarget "HomeFitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8D05CFD2CF8C6D400F0A27B /* Debug */,
+				C8D05CFE2CF8C6D400F0A27B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8D05CFF2CF8C6D400F0A27B /* Build configuration list for PBXNativeTarget "HomeFitAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8D05D002CF8C6D400F0A27B /* Debug */,
+				C8D05D012CF8C6D400F0A27B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8D05D022CF8C6D400F0A27B /* Build configuration list for PBXNativeTarget "HomeFitAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8D05D032CF8C6D400F0A27B /* Debug */,
+				C8D05D042CF8C6D400F0A27B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C8391A762CF904840029489A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C8391A772CF904840029489A /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C8391A762CF904840029489A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		C8391A792CF904840029489A /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C8391A762CF904840029489A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C8D05CD02CF8C6D200F0A27B /* Project object */;
+}
